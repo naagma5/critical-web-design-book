@@ -7,15 +7,16 @@ img {
 
 .bgImgDefault {
   width: 300px;
-  aspect-ratio: 1/1; /* https://caniuse.com/mdn-css_properties_aspect-ratio */
+  /*aspect-ratio: 1.95;  https://caniuse.com/mdn-css_properties_aspect-ratio */
   background-size: cover;
 }
 
 .cssBackgroundImg {
-  background-image: url(../img/cat-01.jpg);
+  background-image: url(../img/BetterHelp.svg);
 }
 .cssBackgroundImg:hover {
-  background-image: url(../img/cat-02.jpg);
+  background-image: url(../img/better_hellp.png);
+  aspect-ratio: 1.95;
   cursor:crosshair;
 }
 
